@@ -34,5 +34,5 @@ module.exports = {
         open: true, // автоматически откроется страница localhost:3000
         hot: IS_DEV, // чтобы сервер работал только в development режиме
     },
-    devtool: 
+    devtool: setupDevtool(),
 };
